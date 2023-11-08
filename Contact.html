@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+
+    <header id="header">
+        <h1 id="logo">
+          <a href="#">
+            <img src="" alt="NIKI LI" />
+          </a>
+        </h1>
+        <nav class="main-nav">
+          <ul>
+            <li class="homepage">
+              <a href="index.html">Gallery</a>
+            </li>
+            <li class="subpage">
+              <a href="#">Project</a>
+              <ul class="dropdown">
+                <li class="subnav">
+                  <a href="#">Kore talo</a>
+                </li>
+              </ul>
+            </li>
+            <li class="subpage">
+              <a href="About.html">About</a>
+            </li>
+            <li class="subpage">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+    </header>
+     <container class="contact-container">
+        <main class="contact-box">
+            <h1>Contact Info</h1>
+                <div class="contact-item">
+                    <img src="Img/svg/Map.svg" alt="location">
+                    <p>Gothenburg, Sweden</p>
+                </div>
+                <div class="contact-item">
+                    <img src="Img/svg/Envelope.svg" alt="mail">
+                    <p><a href="mail-to:nikiliyiyang@gmail.com">nikiliyiyang@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <img src="Img/svg/Telephone.svg" alt="phone">
+                    <p>T: +46 888888888</p>
+                </div>
+        
+        </main>
+    
+        <form>
+            <div class="message-box">
+                <label for="name">Your Name</label>
+                <input class="form-field" type="text" id="name" name="name" required>
+            </div>
+            <div class="message-box">
+                <label for="email">Your Email</label>
+                <input class="form-field" type="email" id="email" name="email" required>
+            </div>
+            <div class="message-box">
+                <label for="message">Your Message</label>
+                <textarea class="form-field" id="message" name="message" required></textarea>
+            </div>
+            <button class="form-field" type="submit" name="send">Send</button>
+        </form>
+    </container>
+
+</body>
+</html>
