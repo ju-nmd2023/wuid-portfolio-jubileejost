@@ -5,46 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script src="javascript/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" 
+    rel="stylesheet">
 </head>
 <body>
 
-    <header id="header">
-        <h1 id="logo">
-          <a href="#">
-            <img src="" alt="NIKI LI" />
-          </a>
-        </h1>
-        <nav class="main-nav">
-          <ul>
-            <li class="homepage">
-              <a href="index.html">Gallery</a>
-            </li>
-            <li class="subpage">
-              <a href="#">Project</a>
-              <ul class="dropdown">
-                <li class="subnav">
-                  <a href="#">Kore talo</a>
-                </li>
-              </ul>
-            </li>
-            <li class="subpage">
-              <a href="About.html">About</a>
-            </li>
-            <li class="subpage">
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </nav>
-    </header>
+  <header id="header">
+    <h1 id="logo">
+      <a href="#">
+        <img src="" alt="NIKI LI" />
+      </a>
+    </h1>
+    <div class="menu-toggle">
+      <img src="Img/svg/List.svg" class="list-menu" id="menu-icon">
+      <img src="Img/svg/X.svg" class="list-close" id="close-icon">
+     </div>
+    <nav class="main-nav">
+      <ul>
+        <li class="homepage">
+          <a href="index.html">Project</a>
+        </li>
+        <li class="subpage">
+          <a href="Gallery.html">Gallery</a>
+        </li>
+        <li class="subpage">
+          <a href="About.html">About</a>
+        </li>
+        <li class="subpage">
+          <a href="Contact.html">Contact</a>
+        </li>
+      </ul>
+      
+    </nav>
+</header>
+
      <container class="contact-container">
         <main class="contact-box">
-            <h1>Contact Info</h1>
+            <h2>Contact Info</h2>
                 <div class="contact-item">
                     <img src="./Img/svg/Map.svg" alt="location">
                     <p>Gothenburg, Sweden</p>
@@ -76,6 +77,16 @@
             <button class="form-field" type="submit" name="send">Send</button>
         </form>
     </container>
-
+      <!-- footer -->
+      <footer id="footer">
+        <div id="sociallinks">
+          <a href="https://instagram.com/niki_yiyang?igshid=MzRlODBiNWFlZA==">
+            <img src="" alt="instagram" />
+          </a>
+          <a href="http://linkedin.com/in/li-yiyang-19456b196">
+            <img src="" alt="linkedin" />
+          </a>
+        </div>
+      </footer>
 </body>
 </html>

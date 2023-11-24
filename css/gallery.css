@@ -1,0 +1,48 @@
+
+  /* Container Styles */
+
+
+  .photo-collection {
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    gap: 60px;
+  
+  }
+
+  @media screen and (max-width:1000px){
+    .photo-collection{
+      
+      margin:0 10%;
+    }
+    }
+  
+  p1 {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-top: -20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+  
+.thumbnail {
+  margin-top: 15px;
+}
+
+  .bold-text {
+    font-weight: 700;
+  }
+  
+  .photo-collection img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  

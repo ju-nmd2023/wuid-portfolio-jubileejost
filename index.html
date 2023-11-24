@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NIKI LI</title>
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
-      rel="stylesheet"
-    />
+    <script src="javascript/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" 
+    rel="stylesheet">
   </head>
   <body>
       <!-- header -->
@@ -21,18 +20,17 @@
               <img src="" alt="NIKI LI" />
             </a>
           </h1>
+          <div class="menu-toggle">
+            <img src="Img/svg/List.svg" class="list-menu" id="menu-icon">
+            <img src="Img/svg/X.svg" class="list-close" id="close-icon">
+           </div>
           <nav class="main-nav">
             <ul>
-              <li class="homepage">
-                <a href="index.html">Gallery</a>
+              <li class="subpage">
+                <a href="index.html">Project</a>
               </li>
               <li class="subpage">
-                <a href="#">Project</a>
-                <ul class="dropdown">
-                  <li class="subnav">
-                    <a href="#">Kore talo</a>
-                  </li>
-                </ul>
+                <a href="Gallery.html">Gallery</a>
               </li>
               <li class="subpage">
                 <a href="About.html">About</a>
@@ -41,6 +39,7 @@
                 <a href="Contact.html">Contact</a>
               </li>
             </ul>
+            
           </nav>
       </header>
       
@@ -51,12 +50,12 @@
         <ul id="photo-gallery">
             <li class="homepage-photo">
               <a href="#">
-                <img src="./Img/cabin0.jpg" alt="cabin0" />
+                <img src="Img/Kore/2 exterior.jpg" alt="exterior"/>
               </a>
             </li>
             <li class="homepage-photo">
               <a href="#">
-                <img src="./Img/cabin1.jpg" alt="cabin1" />
+                <img src="/" alt="" />
               </a>
             </li>
             <li class="homepage-photo">
@@ -71,7 +70,6 @@
             </li>
           </ul>
       </section>
-
 
       <!-- footer -->
       <footer id="footer">

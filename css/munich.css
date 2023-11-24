@@ -1,0 +1,179 @@
+.munich-page {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin: 0 10%;
+}
+
+.munich-1 {
+  grid-column: 2 / span 6;
+}
+
+h2 {
+  grid-column: 2 / span 6;
+  text-align: center;
+}
+p1 {
+  grid-column: 2 / span 6;
+  text-align: center;
+}
+
+p2 {
+  grid-column: 2 / span 6;
+  padding-bottom: 10%;
+  text-align: center;
+}
+h3 {
+  grid-column: 1 / span 2;
+  padding-left: 10%;
+}
+
+p3 {
+  grid-column: 1 / span 4;
+  padding: 0 5% 20% 5%;
+}
+
+#location{
+  max-width: 24px;
+  height: auto;
+  margin-left: 30%;
+}
+
+.munich-2 {
+  grid-column: 5 / span 4;
+  padding-left: 5%;
+}
+.munich-3 {
+  grid-column: 1 / span 7;
+  padding-bottom: 5%;
+  animation: adjust-img linear both;
+}
+
+@keyframes adjust-img {
+  to {  
+    scale: 0.9;
+    translate:-5% -5%;
+  }
+  
+}
+
+p7 {
+  grid-template-columns: 8 / span 1;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 12px;
+  padding-top: 100%;
+  animation: adjust-location linear both;
+  opacity: 0.1;
+}
+
+/* I take inspirations from the website:https://scroll-driven-animations.style/ */
+
+@keyframes adjust-location {
+  to{
+    translate:-10% 36%;
+    opacity: 1;
+    
+  }
+}
+
+.munich-3, p7 {
+	animation-timeline: scroll();
+	animation-range: 640px 1080px;
+}
+
+.munich-4 {
+  grid-column: 1 / span 8;
+  padding-bottom: 10%;
+}
+
+h4 {
+  grid-column: 1 / span 2;
+}
+
+.munich-6 {
+  grid-column: 1 / span 4;
+  padding-top: 5%;
+}
+
+p4 {
+  grid-column: 5 / span 4;
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+
+.munich-7 {
+  grid-column: 1 / span 8;
+  padding-bottom: 10%;
+}
+
+.munich-11 {
+  grid-column: 1 / span 7;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+
+p8 {
+  grid-column: 8 / span 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 12px;
+  padding-top: 280%;
+}
+h5 {
+  grid-column: 1 / span 2;
+  padding-bottom: 5%;
+}
+
+p5 {
+  grid-column: 1 / span 4;
+  padding-right: 5%;
+}
+
+p6 {
+  grid-column: 5 / span 4;
+  padding-left: 5%;
+  padding-bottom: 20%;
+}
+
+.munich-12 {
+  grid-column: 1 / span 8;
+  padding-bottom: 10%;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .munich-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .munich-page {
+    
+
+  }
+}
+
+.munich-page img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p1,
+p2,
+p3,
+p4,
+p5 {
+  font-size: 16px;
+  line-height: 1.5;
+}
